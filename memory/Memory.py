@@ -25,8 +25,8 @@ conversation = ConversationChain(
     verbose=True,
     memory=ConversationBufferMemory()
 )
-print(conversation.predict(input="并发高的项目应该注意什么"))
+print(conversation.predict(input="给我用python 写一个贪吃蛇游戏"))
 
-print("****")
-
-print(conversation.predict(input="我上一句说的什么"))
+# print("****")
+#
+# print(conversation.predict(input="我上一句说的什么"))
